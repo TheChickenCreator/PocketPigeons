@@ -237,4 +237,6 @@ async def growpigeon(ctx, member: discord.Member):
     await ctx.send(f"{member.mention}'s pigeon instantly matured!")
 
 # YOUR TOKEN
-bot.run("MTQ0NTk2ODk2NTMyNjM0MDA5OA.G_zpN5.TNGieQhnVHUrB_KCor0Wkb6xwPxs5xNn1R2J0M")
+
+import os
+bot.run(os.getenv("TOKEN"))
